@@ -8,6 +8,12 @@ export function Contact() {
           Envie seus dados e um breve resumo do caso. Nossa equipe retornará para orientar os
           próximos passos.
         </p>
+        <address className="office-address">
+          <strong>Pinheiro Farias Advogados</strong>
+          <span>Avenida Campos Sales, 532 – Sala 143</span>
+          <span>Centro Campinas</span>
+          <span>CEP: 13.010-081</span>
+        </address>
       </div>
       <form
         className="contact-form"

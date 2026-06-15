@@ -23,6 +23,11 @@ export function Footer() {
           <p>
             Advocacia trabalhista com atuação técnica em Campinas e região.
           </p>
+          <address className="footer-address">
+            <span>Avenida Campos Sales, 532 – Sala 143</span>
+            <span>Centro Campinas</span>
+            <span>CEP: 13.010-081</span>
+          </address>
         </div>
 
         <nav className="footer-nav" aria-label="Navegação do rodapé">
@@ -52,6 +57,9 @@ export function Footer() {
       <div className="footer-bottom">
         <p>© {new Date().getFullYear()} Pinheiro Farias Advogados. Todos os direitos reservados.</p>
         <p>As informações deste site não substituem análise jurídica individualizada.</p>
+        <p>
+          Desenvolvido por <a href="https://luce.app.br" target="_blank" rel="noreferrer">Luce.app</a>
+        </p>
       </div>
     </footer>
   );

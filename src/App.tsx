@@ -11,6 +11,7 @@ import { Method } from "./components/Method";
 import { Region } from "./components/Region";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
+import { WhatsAppButton } from "./components/WhatsAppButton";
 
 export default function App() {
   useEffect(() => {
@@ -102,6 +103,7 @@ export default function App() {
         <Contact />
       </main>
       <Footer />
+      <WhatsAppButton />
     </>
   );
 }
